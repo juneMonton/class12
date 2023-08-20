@@ -18,14 +18,25 @@ img{
   height: 300px;
   margin: 0 auto;
 }
-ul{
+ul#first{
+  float:left;
   width: 100px;
-  height: 200px;
+  height: 331px;
   border: 3px solid black;
-  margin: 0 auto;
+  margin-left:43%;
   list-style: none;
   padding: 0;
 }
+ul#second{
+  float:left;
+  width:100px;
+  height:331px;
+  border:3px solid black;
+  margin-left:5%;
+  list-style:none;
+  padding-left:0;
+}
+
 li{
   width: 94px;
   height: 65px;
@@ -42,4 +53,31 @@ li{
 }
 #blue{
   background: rgba(0,254,255);
+}
+#orange{
+  background:rgba(252, 214, 112);
+}
+
+#yellow{
+  background:rgba(255, 252, 127);
+}
+
+#pink{
+  background:rgba(227, 61, 148);
+}
+
+#navyblue{
+  background:rgba(30, 81, 123);
+}
+
+#red{
+  background:rgba(255, 76, 48);
+}
+
+#brown{
+  background:rgba(166, 145, 92);
+
+}
+#beige{
+  background:rgba(227, 186, 143);
 }
